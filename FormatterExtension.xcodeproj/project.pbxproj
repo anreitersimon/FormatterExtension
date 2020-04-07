@@ -197,6 +197,13 @@
 			remoteGlobalIDString = "swift-format::swift-format::Product";
 			remoteInfo = "swift-format";
 		};
+		2D8A3BC1243CC4210079D61B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatPerformanceTests::Product";
+			remoteInfo = SwiftFormatPerformanceTests;
+		};
 		2DDD2B552433AB3E006A7F41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
@@ -375,6 +382,7 @@
 				2D1CC4952402B402006D3F53 /* SwiftFormatConfigurationTests.xctest */,
 				2D44671023E2297100DD6562 /* SwiftFormatCore.framework */,
 				2D44671223E2297100DD6562 /* SwiftFormatCoreTests.xctest */,
+				2D8A3BC2243CC4210079D61B /* SwiftFormatPerformanceTests.xctest */,
 				2D44671423E2297100DD6562 /* SwiftFormatPrettyPrint.framework */,
 				2D44671623E2297100DD6562 /* SwiftFormatPrettyPrintTests.xctest */,
 				2D44671823E2297100DD6562 /* SwiftFormatRules.framework */,
@@ -626,6 +634,13 @@
 			remoteRef = 2D44672723E2297100DD6562 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		2D8A3BC2243CC4210079D61B /* SwiftFormatPerformanceTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = SwiftFormatPerformanceTests.xctest;
+			remoteRef = 2D8A3BC1243CC4210079D61B /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		2DDD2B562433AB3E006A7F41 /* ArgumentParser.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -812,7 +827,7 @@
 				CODE_SIGN_ENTITLEMENTS = FormatterExtension/FormatterExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 54NAVK34LF;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FormatterExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -833,7 +848,7 @@
 				CODE_SIGN_ENTITLEMENTS = FormatterExtension/FormatterExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 54NAVK34LF;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FormatterExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -852,7 +867,7 @@
 				CODE_SIGN_ENTITLEMENTS = Formatter/Formatter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 54NAVK34LF;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Formatter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -873,7 +888,7 @@
 				CODE_SIGN_ENTITLEMENTS = Formatter/Formatter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 54NAVK34LF;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = Formatter/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
