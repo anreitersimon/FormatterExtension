@@ -7,20 +7,276 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D3F446423E358B200E50AF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D3F444C23E358B100E50AF9 /* ContentView.swift */; };
+		2D3F446623E358F200E50AF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D3F446523E358F200E50AF9 /* Main.storyboard */; };
+		2D3F446723E35E5300E50AF9 /* _CSwiftSyntax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44672223E2297100DD6562 /* _CSwiftSyntax.framework */; };
+		2D3F446823E35E5300E50AF9 /* SwiftFormat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44670C23E2297100DD6562 /* SwiftFormat.framework */; };
+		2D3F446923E35E5300E50AF9 /* SwiftFormatConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44670E23E2297100DD6562 /* SwiftFormatConfiguration.framework */; };
+		2D3F446A23E35E5300E50AF9 /* SwiftFormatCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671023E2297100DD6562 /* SwiftFormatCore.framework */; };
+		2D3F446B23E35E5300E50AF9 /* SwiftFormatPrettyPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671423E2297100DD6562 /* SwiftFormatPrettyPrint.framework */; };
+		2D3F446C23E35E5300E50AF9 /* SwiftFormatRules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671823E2297100DD6562 /* SwiftFormatRules.framework */; };
+		2D3F446D23E35E5300E50AF9 /* SwiftFormatWhitespaceLinter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671C23E2297100DD6562 /* SwiftFormatWhitespaceLinter.framework */; };
+		2D3F446E23E35E5300E50AF9 /* SwiftSyntax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44672023E2297100DD6562 /* SwiftSyntax.framework */; };
 		2D44668F23E2255300DD6562 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D44668E23E2255300DD6562 /* AppDelegate.swift */; };
-		2D44669123E2255300DD6562 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D44669023E2255300DD6562 /* ViewController.swift */; };
 		2D44669323E2255700DD6562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D44669223E2255700DD6562 /* Assets.xcassets */; };
-		2D44669623E2255700DD6562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D44669423E2255700DD6562 /* Main.storyboard */; };
+		2D4466A523E2256800DD6562 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D4466A423E2256800DD6562 /* Cocoa.framework */; };
+		2D4466A823E2256800DD6562 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4466A723E2256800DD6562 /* SourceEditorExtension.swift */; };
+		2D4466AA23E2256800DD6562 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4466A923E2256800DD6562 /* SourceEditorCommand.swift */; };
+		2D4466AF23E2256800DD6562 /* Formatter.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2D4466A223E2256800DD6562 /* Formatter.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2D44674223E2299700DD6562 /* SwiftFormat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44670C23E2297100DD6562 /* SwiftFormat.framework */; };
+		2D44674323E2299700DD6562 /* SwiftFormat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44670C23E2297100DD6562 /* SwiftFormat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D44674523E22A5400DD6562 /* _CSwiftSyntax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44672223E2297100DD6562 /* _CSwiftSyntax.framework */; };
+		2D44674623E22A5400DD6562 /* _CSwiftSyntax.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44672223E2297100DD6562 /* _CSwiftSyntax.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D44674723E22A5400DD6562 /* SwiftFormatConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44670E23E2297100DD6562 /* SwiftFormatConfiguration.framework */; };
+		2D44674823E22A5400DD6562 /* SwiftFormatConfiguration.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44670E23E2297100DD6562 /* SwiftFormatConfiguration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D44674923E22A5400DD6562 /* SwiftFormatCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671023E2297100DD6562 /* SwiftFormatCore.framework */; };
+		2D44674A23E22A5400DD6562 /* SwiftFormatCore.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671023E2297100DD6562 /* SwiftFormatCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D44674B23E22A5400DD6562 /* SwiftFormatPrettyPrint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671423E2297100DD6562 /* SwiftFormatPrettyPrint.framework */; };
+		2D44674C23E22A5400DD6562 /* SwiftFormatPrettyPrint.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671423E2297100DD6562 /* SwiftFormatPrettyPrint.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D44674D23E22A5400DD6562 /* SwiftFormatRules.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671823E2297100DD6562 /* SwiftFormatRules.framework */; };
+		2D44674E23E22A5400DD6562 /* SwiftFormatRules.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671823E2297100DD6562 /* SwiftFormatRules.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D44674F23E22A5400DD6562 /* SwiftFormatWhitespaceLinter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671C23E2297100DD6562 /* SwiftFormatWhitespaceLinter.framework */; };
+		2D44675023E22A5400DD6562 /* SwiftFormatWhitespaceLinter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44671C23E2297100DD6562 /* SwiftFormatWhitespaceLinter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2D44675123E22A5400DD6562 /* SwiftSyntax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44672023E2297100DD6562 /* SwiftSyntax.framework */; };
+		2D44675223E22A5400DD6562 /* SwiftSyntax.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 2D44672023E2297100DD6562 /* SwiftSyntax.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DBD89A623E36A8D0035004D /* SwiftFormatRules.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D44671823E2297100DD6562 /* SwiftFormatRules.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DBD89A723E36A8D0035004D /* SwiftFormatWhitespaceLinter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D44671C23E2297100DD6562 /* SwiftFormatWhitespaceLinter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DBD89A823E36A8D0035004D /* SwiftSyntax.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D44672023E2297100DD6562 /* SwiftSyntax.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DBD89A923E36A8D0035004D /* SwiftFormat.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D44670C23E2297100DD6562 /* SwiftFormat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DBD89AA23E36A8D0035004D /* SwiftFormatCore.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D44671023E2297100DD6562 /* SwiftFormatCore.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DBD89AB23E36A8D0035004D /* SwiftFormatConfiguration.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D44670E23E2297100DD6562 /* SwiftFormatConfiguration.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DBD89AC23E36A8D0035004D /* _CSwiftSyntax.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D44672223E2297100DD6562 /* _CSwiftSyntax.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		2DBD89AD23E36A8D0035004D /* SwiftFormatPrettyPrint.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2D44671423E2297100DD6562 /* SwiftFormatPrettyPrint.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2D1CC4942402B402006D3F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatConfigurationTests::Product";
+			remoteInfo = SwiftFormatConfigurationTests;
+		};
+		2D1CC4962402B402006D3F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatTestSupport::Product";
+			remoteInfo = SwiftFormatTestSupport;
+		};
+		2D1CC4982402B402006D3F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-tools-support-core::TSCBasic::Product";
+			remoteInfo = TSCBasic;
+		};
+		2D1CC49A2402B402006D3F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-tools-support-core::TSCLibc::Product";
+			remoteInfo = TSCLibc;
+		};
+		2D1CC49C2402B402006D3F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-tools-support-core::TSCUtility::Product";
+			remoteInfo = TSCUtility;
+		};
+		2D1CC49E2402B402006D3F53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-tools-support-core::TSCclibc::Product";
+			remoteInfo = TSCclibc;
+		};
+		2D4466AD23E2256800DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D44668323E2255300DD6562 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D4466A123E2256800DD6562;
+			remoteInfo = Formatter;
+		};
+		2D44670B23E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormat::Product";
+			remoteInfo = SwiftFormat;
+		};
+		2D44670D23E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatConfiguration::Product";
+			remoteInfo = SwiftFormatConfiguration;
+		};
+		2D44670F23E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatCore::Product";
+			remoteInfo = SwiftFormatCore;
+		};
+		2D44671123E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatCoreTests::Product";
+			remoteInfo = SwiftFormatCoreTests;
+		};
+		2D44671323E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatPrettyPrint::Product";
+			remoteInfo = SwiftFormatPrettyPrint;
+		};
+		2D44671523E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatPrettyPrintTests::Product";
+			remoteInfo = SwiftFormatPrettyPrintTests;
+		};
+		2D44671723E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatRules::Product";
+			remoteInfo = SwiftFormatRules;
+		};
+		2D44671923E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatRulesTests::Product";
+			remoteInfo = SwiftFormatRulesTests;
+		};
+		2D44671B23E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatWhitespaceLinter::Product";
+			remoteInfo = SwiftFormatWhitespaceLinter;
+		};
+		2D44671D23E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatWhitespaceLinterTests::Product";
+			remoteInfo = SwiftFormatWhitespaceLinterTests;
+		};
+		2D44671F23E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "SwiftSyntax::SwiftSyntax::Product";
+			remoteInfo = SwiftSyntax;
+		};
+		2D44672123E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "SwiftSyntax::_CSwiftSyntax::Product";
+			remoteInfo = _CSwiftSyntax;
+		};
+		2D44672523E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::generate-pipeline::Product";
+			remoteInfo = "generate-pipeline";
+		};
+		2D44672723E2297100DD6562 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::swift-format::Product";
+			remoteInfo = "swift-format";
+		};
+		2DDD2B552433AB3E006A7F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-argument-parser::ArgumentParser::Product";
+			remoteInfo = ArgumentParser;
+		};
+		2DDD2B572433AB3E006A7F41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = "swift-format::SwiftFormatTests::Product";
+			remoteInfo = SwiftFormatTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2D4466B323E2256800DD6562 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				2D4466AF23E2256800DD6562 /* Formatter.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D44674423E2299700DD6562 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2D44674C23E22A5400DD6562 /* SwiftFormatPrettyPrint.framework in Embed Frameworks */,
+				2D44674A23E22A5400DD6562 /* SwiftFormatCore.framework in Embed Frameworks */,
+				2D44674323E2299700DD6562 /* SwiftFormat.framework in Embed Frameworks */,
+				2D44674E23E22A5400DD6562 /* SwiftFormatRules.framework in Embed Frameworks */,
+				2D44674823E22A5400DD6562 /* SwiftFormatConfiguration.framework in Embed Frameworks */,
+				2D44675223E22A5400DD6562 /* SwiftSyntax.framework in Embed Frameworks */,
+				2D44675023E22A5400DD6562 /* SwiftFormatWhitespaceLinter.framework in Embed Frameworks */,
+				2D44674623E22A5400DD6562 /* _CSwiftSyntax.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DBD89A523E36A730035004D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2DBD89A623E36A8D0035004D /* SwiftFormatRules.framework in CopyFiles */,
+				2DBD89A723E36A8D0035004D /* SwiftFormatWhitespaceLinter.framework in CopyFiles */,
+				2DBD89A823E36A8D0035004D /* SwiftSyntax.framework in CopyFiles */,
+				2DBD89A923E36A8D0035004D /* SwiftFormat.framework in CopyFiles */,
+				2DBD89AA23E36A8D0035004D /* SwiftFormatCore.framework in CopyFiles */,
+				2DBD89AB23E36A8D0035004D /* SwiftFormatConfiguration.framework in CopyFiles */,
+				2DBD89AC23E36A8D0035004D /* _CSwiftSyntax.framework in CopyFiles */,
+				2DBD89AD23E36A8D0035004D /* SwiftFormatPrettyPrint.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2D3F444C23E358B100E50AF9 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D3F446523E358F200E50AF9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2D44668B23E2255300DD6562 /* FormatterExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FormatterExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D44668E23E2255300DD6562 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2D44669023E2255300DD6562 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2D44669223E2255700DD6562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2D44669523E2255700DD6562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2D44669723E2255700DD6562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D44669823E2255700DD6562 /* FormatterExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FormatterExtension.entitlements; sourceTree = "<group>"; };
+		2D4466A223E2256800DD6562 /* Formatter.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Formatter.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D4466A423E2256800DD6562 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2D4466A723E2256800DD6562 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		2D4466A923E2256800DD6562 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		2D4466AB23E2256800DD6562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D4466AC23E2256800DD6562 /* Formatter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Formatter.entitlements; sourceTree = "<group>"; };
+		2D4466B923E2297100DD6562 /* swift-format.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "swift-format.xcodeproj"; path = "swift-format/swift-format.xcodeproj"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,6 +284,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D3F446723E35E5300E50AF9 /* _CSwiftSyntax.framework in Frameworks */,
+				2D3F446823E35E5300E50AF9 /* SwiftFormat.framework in Frameworks */,
+				2D3F446923E35E5300E50AF9 /* SwiftFormatConfiguration.framework in Frameworks */,
+				2D3F446A23E35E5300E50AF9 /* SwiftFormatCore.framework in Frameworks */,
+				2D3F446B23E35E5300E50AF9 /* SwiftFormatPrettyPrint.framework in Frameworks */,
+				2D3F446C23E35E5300E50AF9 /* SwiftFormatRules.framework in Frameworks */,
+				2D3F446D23E35E5300E50AF9 /* SwiftFormatWhitespaceLinter.framework in Frameworks */,
+				2D3F446E23E35E5300E50AF9 /* SwiftSyntax.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D44669F23E2256800DD6562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D44674D23E22A5400DD6562 /* SwiftFormatRules.framework in Frameworks */,
+				2D44675123E22A5400DD6562 /* SwiftSyntax.framework in Frameworks */,
+				2D44674723E22A5400DD6562 /* SwiftFormatConfiguration.framework in Frameworks */,
+				2D44674F23E22A5400DD6562 /* SwiftFormatWhitespaceLinter.framework in Frameworks */,
+				2D44674523E22A5400DD6562 /* _CSwiftSyntax.framework in Frameworks */,
+				2D44674B23E22A5400DD6562 /* SwiftFormatPrettyPrint.framework in Frameworks */,
+				2D44674923E22A5400DD6562 /* SwiftFormatCore.framework in Frameworks */,
+				2D4466A523E2256800DD6562 /* Cocoa.framework in Frameworks */,
+				2D44674223E2299700DD6562 /* SwiftFormat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,7 +317,10 @@
 		2D44668223E2255300DD6562 = {
 			isa = PBXGroup;
 			children = (
+				2D4466B923E2297100DD6562 /* swift-format.xcodeproj */,
 				2D44668D23E2255300DD6562 /* FormatterExtension */,
+				2D4466A623E2256800DD6562 /* Formatter */,
+				2D4466A323E2256800DD6562 /* Frameworks */,
 				2D44668C23E2255300DD6562 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +329,7 @@
 			isa = PBXGroup;
 			children = (
 				2D44668B23E2255300DD6562 /* FormatterExtension.app */,
+				2D4466A223E2256800DD6562 /* Formatter.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -53,14 +337,62 @@
 		2D44668D23E2255300DD6562 /* FormatterExtension */ = {
 			isa = PBXGroup;
 			children = (
+				2D3F446523E358F200E50AF9 /* Main.storyboard */,
 				2D44668E23E2255300DD6562 /* AppDelegate.swift */,
-				2D44669023E2255300DD6562 /* ViewController.swift */,
+				2D3F444C23E358B100E50AF9 /* ContentView.swift */,
 				2D44669223E2255700DD6562 /* Assets.xcassets */,
-				2D44669423E2255700DD6562 /* Main.storyboard */,
 				2D44669723E2255700DD6562 /* Info.plist */,
 				2D44669823E2255700DD6562 /* FormatterExtension.entitlements */,
 			);
 			path = FormatterExtension;
+			sourceTree = "<group>";
+		};
+		2D4466A323E2256800DD6562 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2D4466A423E2256800DD6562 /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2D4466A623E2256800DD6562 /* Formatter */ = {
+			isa = PBXGroup;
+			children = (
+				2D4466A723E2256800DD6562 /* SourceEditorExtension.swift */,
+				2D4466A923E2256800DD6562 /* SourceEditorCommand.swift */,
+				2D4466AB23E2256800DD6562 /* Info.plist */,
+				2D4466AC23E2256800DD6562 /* Formatter.entitlements */,
+			);
+			path = Formatter;
+			sourceTree = "<group>";
+		};
+		2D4466BA23E2297100DD6562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DDD2B562433AB3E006A7F41 /* ArgumentParser.framework */,
+				2D44670C23E2297100DD6562 /* SwiftFormat.framework */,
+				2D44670E23E2297100DD6562 /* SwiftFormatConfiguration.framework */,
+				2D1CC4952402B402006D3F53 /* SwiftFormatConfigurationTests.xctest */,
+				2D44671023E2297100DD6562 /* SwiftFormatCore.framework */,
+				2D44671223E2297100DD6562 /* SwiftFormatCoreTests.xctest */,
+				2D44671423E2297100DD6562 /* SwiftFormatPrettyPrint.framework */,
+				2D44671623E2297100DD6562 /* SwiftFormatPrettyPrintTests.xctest */,
+				2D44671823E2297100DD6562 /* SwiftFormatRules.framework */,
+				2D44671A23E2297100DD6562 /* SwiftFormatRulesTests.xctest */,
+				2D1CC4972402B402006D3F53 /* SwiftFormatTestSupport.framework */,
+				2DDD2B582433AB3E006A7F41 /* SwiftFormatTests.xctest */,
+				2D44671C23E2297100DD6562 /* SwiftFormatWhitespaceLinter.framework */,
+				2D44671E23E2297100DD6562 /* SwiftFormatWhitespaceLinterTests.xctest */,
+				2D44672023E2297100DD6562 /* SwiftSyntax.framework */,
+				2D1CC4992402B402006D3F53 /* TSCBasic.framework */,
+				2D1CC49B2402B402006D3F53 /* TSCLibc.framework */,
+				2D1CC49D2402B402006D3F53 /* TSCUtility.framework */,
+				2D1CC49F2402B402006D3F53 /* TSCclibc.framework */,
+				2D44672223E2297100DD6562 /* _CSwiftSyntax.framework */,
+				2D44672623E2297100DD6562 /* generate-pipeline */,
+				2D44672823E2297100DD6562 /* swift-format */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,15 +405,40 @@
 				2D44668723E2255300DD6562 /* Sources */,
 				2D44668823E2255300DD6562 /* Frameworks */,
 				2D44668923E2255300DD6562 /* Resources */,
+				2D4466B323E2256800DD6562 /* Embed App Extensions */,
+				2DBD89A523E36A730035004D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D4466AE23E2256800DD6562 /* PBXTargetDependency */,
+			);
+			name = FormatterExtension;
+			packageProductDependencies = (
+			);
+			productName = FormatterExtension;
+			productReference = 2D44668B23E2255300DD6562 /* FormatterExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D4466A123E2256800DD6562 /* Formatter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D4466B023E2256800DD6562 /* Build configuration list for PBXNativeTarget "Formatter" */;
+			buildPhases = (
+				2D44669E23E2256800DD6562 /* Sources */,
+				2D44669F23E2256800DD6562 /* Frameworks */,
+				2D4466A023E2256800DD6562 /* Resources */,
+				2D44674423E2299700DD6562 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FormatterExtension;
-			productName = FormatterExtension;
-			productReference = 2D44668B23E2255300DD6562 /* FormatterExtension.app */;
-			productType = "com.apple.product-type.application";
+			name = Formatter;
+			packageProductDependencies = (
+			);
+			productName = Formatter;
+			productReference = 2D4466A223E2256800DD6562 /* Formatter.appex */;
+			productType = "com.apple.product-type.xcode-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +453,9 @@
 					2D44668A23E2255300DD6562 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
+					2D4466A123E2256800DD6562 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
 				};
 			};
 			buildConfigurationList = 2D44668623E2255300DD6562 /* Build configuration list for PBXProject "FormatterExtension" */;
@@ -107,14 +467,180 @@
 				Base,
 			);
 			mainGroup = 2D44668223E2255300DD6562;
+			packageReferences = (
+			);
 			productRefGroup = 2D44668C23E2255300DD6562 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2D4466BA23E2297100DD6562 /* Products */;
+					ProjectRef = 2D4466B923E2297100DD6562 /* swift-format.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				2D44668A23E2255300DD6562 /* FormatterExtension */,
+				2D4466A123E2256800DD6562 /* Formatter */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2D1CC4952402B402006D3F53 /* SwiftFormatConfigurationTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = SwiftFormatConfigurationTests.xctest;
+			remoteRef = 2D1CC4942402B402006D3F53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D1CC4972402B402006D3F53 /* SwiftFormatTestSupport.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFormatTestSupport.framework;
+			remoteRef = 2D1CC4962402B402006D3F53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D1CC4992402B402006D3F53 /* TSCBasic.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TSCBasic.framework;
+			remoteRef = 2D1CC4982402B402006D3F53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D1CC49B2402B402006D3F53 /* TSCLibc.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TSCLibc.framework;
+			remoteRef = 2D1CC49A2402B402006D3F53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D1CC49D2402B402006D3F53 /* TSCUtility.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TSCUtility.framework;
+			remoteRef = 2D1CC49C2402B402006D3F53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D1CC49F2402B402006D3F53 /* TSCclibc.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = TSCclibc.framework;
+			remoteRef = 2D1CC49E2402B402006D3F53 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44670C23E2297100DD6562 /* SwiftFormat.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFormat.framework;
+			remoteRef = 2D44670B23E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44670E23E2297100DD6562 /* SwiftFormatConfiguration.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFormatConfiguration.framework;
+			remoteRef = 2D44670D23E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44671023E2297100DD6562 /* SwiftFormatCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFormatCore.framework;
+			remoteRef = 2D44670F23E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44671223E2297100DD6562 /* SwiftFormatCoreTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = SwiftFormatCoreTests.xctest;
+			remoteRef = 2D44671123E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44671423E2297100DD6562 /* SwiftFormatPrettyPrint.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFormatPrettyPrint.framework;
+			remoteRef = 2D44671323E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44671623E2297100DD6562 /* SwiftFormatPrettyPrintTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = SwiftFormatPrettyPrintTests.xctest;
+			remoteRef = 2D44671523E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44671823E2297100DD6562 /* SwiftFormatRules.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFormatRules.framework;
+			remoteRef = 2D44671723E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44671A23E2297100DD6562 /* SwiftFormatRulesTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = SwiftFormatRulesTests.xctest;
+			remoteRef = 2D44671923E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44671C23E2297100DD6562 /* SwiftFormatWhitespaceLinter.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftFormatWhitespaceLinter.framework;
+			remoteRef = 2D44671B23E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44671E23E2297100DD6562 /* SwiftFormatWhitespaceLinterTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = SwiftFormatWhitespaceLinterTests.xctest;
+			remoteRef = 2D44671D23E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44672023E2297100DD6562 /* SwiftSyntax.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftSyntax.framework;
+			remoteRef = 2D44671F23E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44672223E2297100DD6562 /* _CSwiftSyntax.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = _CSwiftSyntax.framework;
+			remoteRef = 2D44672123E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44672623E2297100DD6562 /* generate-pipeline */ = {
+			isa = PBXReferenceProxy;
+			fileType = text;
+			path = "generate-pipeline";
+			remoteRef = 2D44672523E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2D44672823E2297100DD6562 /* swift-format */ = {
+			isa = PBXReferenceProxy;
+			fileType = text;
+			path = "swift-format";
+			remoteRef = 2D44672723E2297100DD6562 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DDD2B562433AB3E006A7F41 /* ArgumentParser.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ArgumentParser.framework;
+			remoteRef = 2DDD2B552433AB3E006A7F41 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		2DDD2B582433AB3E006A7F41 /* SwiftFormatTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = file;
+			path = SwiftFormatTests.xctest;
+			remoteRef = 2DDD2B572433AB3E006A7F41 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		2D44668923E2255300DD6562 /* Resources */ = {
@@ -122,7 +648,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D44669323E2255700DD6562 /* Assets.xcassets in Resources */,
-				2D44669623E2255700DD6562 /* Main.storyboard in Resources */,
+				2D3F446623E358F200E50AF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D4466A023E2256800DD6562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -133,23 +666,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D44669123E2255300DD6562 /* ViewController.swift in Sources */,
 				2D44668F23E2255300DD6562 /* AppDelegate.swift in Sources */,
+				2D3F446423E358B200E50AF9 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D44669E23E2256800DD6562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D4466A823E2256800DD6562 /* SourceEditorExtension.swift in Sources */,
+				2D4466AA23E2256800DD6562 /* SourceEditorCommand.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		2D44669423E2255700DD6562 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2D44669523E2255700DD6562 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		2D4466AE23E2256800DD6562 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D4466A123E2256800DD6562 /* Formatter */;
+			targetProxy = 2D4466AD23E2256800DD6562 /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		2D44669923E2255700DD6562 /* Debug */ = {
@@ -268,18 +807,19 @@
 		2D44669C23E2255700DD6562 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FormatterExtension/FormatterExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9CMC2P9EB5;
+				DEVELOPMENT_TEAM = 54NAVK34LF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FormatterExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.mobility.FormatterExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = anreiter.simon.FormatterExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -288,19 +828,62 @@
 		2D44669D23E2255700DD6562 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = FormatterExtension/FormatterExtension.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = 9CMC2P9EB5;
+				DEVELOPMENT_TEAM = 54NAVK34LF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				INFOPLIST_FILE = FormatterExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = at.mobility.FormatterExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = anreiter.simon.FormatterExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		2D4466B123E2256800DD6562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Formatter/Formatter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 54NAVK34LF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Formatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anreiter.simon.FormatterExtension.Formatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2D4466B223E2256800DD6562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Formatter/Formatter.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 54NAVK34LF;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Formatter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = anreiter.simon.FormatterExtension.Formatter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
@@ -322,6 +905,15 @@
 			buildConfigurations = (
 				2D44669C23E2255700DD6562 /* Debug */,
 				2D44669D23E2255700DD6562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D4466B023E2256800DD6562 /* Build configuration list for PBXNativeTarget "Formatter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D4466B123E2256800DD6562 /* Debug */,
+				2D4466B223E2256800DD6562 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
